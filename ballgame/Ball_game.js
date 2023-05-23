@@ -159,7 +159,7 @@ var map = {
       change_colour: 'game.player.colour = "#"+(Math.random()*0xFFFFFF<<0).toString(16);',
       /* you could load a new map variable here */
       next_level: 'alert("Yay! You won! Reloading map.");game.load_map(map);',
-      death: 'alert("You died!");game.load_map(map);',
+      death: 'alert("Try Again!");game.load_map(map);',
       unlock: 'game.current_map.keys[10].solid = 0;game.current_map.keys[10].colour = "#888";'
   }
 };
